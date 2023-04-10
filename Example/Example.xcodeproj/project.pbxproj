@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B98B6545702820914071BD9 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFB38360522BE0F4A47CF92 /* Pods_Example.framework */; };
 		645368EB2450A7D900ED9A3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645368EA2450A7D900ED9A3B /* AppDelegate.swift */; };
 		645368ED2450A7D900ED9A3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645368EC2450A7D900ED9A3B /* SceneDelegate.swift */; };
 		645368EF2450A7D900ED9A3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645368EE2450A7D900ED9A3B /* ContentView.swift */; };
@@ -129,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B98B6545702820914071BD9 /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,10 +667,9 @@
 			baseConfigurationReference = F9B2856E19CB080EFB621C40 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Example/Example.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Example/Preview Content\"";
-				DEVELOPMENT_TEAM = UME38WJ3HH;
+				DEVELOPMENT_TEAM = Y82TY83U4B;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -692,10 +693,9 @@
 			baseConfigurationReference = 546E1814BFB42E16FCD8BDB1 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Example/Example.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Example/Preview Content\"";
-				DEVELOPMENT_TEAM = UME38WJ3HH;
+				DEVELOPMENT_TEAM = Y82TY83U4B;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
