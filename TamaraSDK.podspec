@@ -12,11 +12,13 @@ Pod::Spec.new do |spec|
 
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "Tamara" => "contact@tamara.co" }
-  spec.platform     = :ios, "11.0"
+  spec.platform     = :ios, "12.0"
   spec.source       = { :git => "https://github.com/tamara-solution/ios-sdk.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "TamaraSDK/TamaraSDK/*"
   spec.exclude_files = "TamaraSDK/TamaraSDK/*.plist"
+  
+  spec.dependency 'SnapKit', '~> 5.6.0'
 
   spec.swift_versions = "5.0"
 
